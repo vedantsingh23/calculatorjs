@@ -4,15 +4,12 @@ h1 {
 }
 
 html{
-    background-color:deepskyblue;
+    background-color:lightgray;
 }
 
 .calc {
     width: 300px;
     margin: 20px auto;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .display {
@@ -20,7 +17,6 @@ html{
     background-color: lightcoral;
     text-align: right;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
 }
 
 .btn {
