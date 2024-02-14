@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <!-- centers the test and the calculator -->
     <center>
         <h1>Calculator</h1>
     </center>
     <center>
+    <div class="background"> <!-- svg background -->
+        <!-- make all the mathmatical buttons -->
     <div class="btn">
         <input type="text" id="display" readonly>
         <button onclick="iDisplay('1')">1</button>
@@ -27,19 +30,20 @@
         <button onclick="iDisplay('-')">-</button>
         <button onclick="iDisplay('*')">*</button>
         <button onclick="iDisplay('/')">/</button>
-        <button >x^2</button>
-        <button >x^y</button>
-        <button >√</button>
+        <button onclick="e()">e</button>
+        <button onclick="iDisplay('**')">x^y</button>
+        <button onclick="squareRoot()">√</button>
         <button onclick="tan()">tan</button>
         <button onclick="cos()">cos</button>
         <button onclick="sin()">sin</button>
         <button onclick="log()">log</button>
         <button onclick="iDisplay('.')">.</button>
-        <button onclick="clear()">CE</button>
+        <button onclick="iDisplay('clear')">CE</button>
         <button onclick="calculate()">=</button>
 
     </div>
+</div>
 </center>
-<script src="./calcc.js"></script>
+<script src="./calcc.js"></script> <!-- links the javascript-->
 </body>
 </html>
